@@ -1,0 +1,79 @@
+<!-- <table class="table table-striped table-bordered">  
+    <thead>  
+        <tr>  
+          <th>ID</th>  
+          <th>Name</th>  
+          <th>Email</th>  
+          <th>Gender</th>  
+        </tr>  
+    </thead>  
+    <tbody>  
+      <tr *ngFor="let student of students">  
+        <td>{{ student.id }}</td>  
+        <td>{{ student.name }}</td>  
+        <td>{{ student.email }}</td>  
+        <td>{{ student.gender }}</td>  
+      </tr>  
+    </tbody>  
+  </table>  
+  <table class="table table-striped table-bordered">  
+    <thead>  
+        <tr>  
+          <th>ID</th>  
+          <th>Name</th>  
+          <th>Email</th>  
+          <th>Gender</th>  
+        </tr>  
+    </thead>  
+    <tbody>  
+      <tr *ngFor="let data of employees">  
+        <td>{{ data.id }}</td>  
+        <td>{{ data.firstName }}</td>  
+        <td> </td>  
+        <td><img src="{{ data.photo }}" /></td>  
+      </tr> 
+      <tr *ngFor="let d of mydatas.current.mechanical">  
+        <td>{{ d.id }}</td>  
+        <td>{{ d.BoardRoll }}</td>  
+        <td>{{ d.Name }}</td>  
+        <td>{{ d.Company }}</td>    
+      </tr>  
+    </tbody>  
+  </table>  -->
+  <!-- gallery section -->
+  
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h3>Display JSON Data</h3>
+        <button (click)="fun(1)">Robert  </button>
+        <button (click)="fun(2)">Maria</button>
+        <button (click)="fun(3)">TOM C </button>
+        <button (click)="fun(0)">ALL </button>
+            <div class="row">
+              <div class="col-md-3 col-12" *ngFor="let g of gallery">
+                <ng-container *ngIf="isGalleryType(g)">
+                  <img src="{{ g.photo }}"/>"
+                </ng-container>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <hr width="50%" align="center">
+<div class="row boxarea">
+    <div class="col-md-4 col-12" *ngFor="let data of employees">
+        <div class="box">
+            <img src="{{ data.photo }}" alt="">
+            <p>{{ data.firstName }} {{ data.lastName }}</p>
+          </div>
+    </div>
+    
+</div>
+  

@@ -1,0 +1,13 @@
+.why{
+    background-color: rgb(239,239,239);
+    padding-bottom: 20px;
+}
+.boxarea{
+    padding: 20px;
+    box-shadow: 0 4px 9px -4px rgb(0 0 0 / 35%);
+}
+.boxarea h3{
+    color: rgb(138,29,31);
+    font-weight: bold;
+    font-family: "Poor Story", cursive;
+}

@@ -1,0 +1,14 @@
+<ngb-rating [(rate)]="currentRate">
+	<ng-template let-fill="fill" let-index="index">
+		<i class="bi-star{{fill === 100 ? '-fill' : ''}}" [class.filled]="fill === 100" [class.low]="index < 3"></i>
+	</ng-template>
+</ngb-rating>
+<hr />
+<pre>Rate: <b>{{currentRate}}</b></pre>
+<p>{{city | uppercase}}</p>
+<p>{{city | lowercase}}</p>
+<p>{{today | date:'dd-MMMM-Y'}}</p>
+<p>{{currencyValue | currency}}</p>
+<p>{{currencyValue | currency:'INR'}}</p>
+<p>{{currencyValue | currency:'INR':true:'1.0-0'}}</p>
+

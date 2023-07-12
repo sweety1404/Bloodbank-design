@@ -1,0 +1,26 @@
+[
+    {
+      "gid": "3",
+      "photo": "https://jsonformatter.org/img/tom-cruise.jpg"
+    },
+    {
+      "gid": "2",
+      "photo": "https://jsonformatter.org/img/Maria-Sharapova.jpg"
+    },
+    {
+      "gid": "1",
+      "photo": "https://jsonformatter.org/img/Robert-Downey-Jr.jpg"
+    },
+    {
+        "gid": "1",
+        "photo": "https://jsonformatter.org/img/Robert-Downey-Jr.jpg"
+      },
+      {
+        "gid": "1",
+        "photo": "https://jsonformatter.org/img/Robert-Downey-Jr.jpg"
+      },
+      {
+        "gid": "1",
+        "photo": "https://jsonformatter.org/img/Robert-Downey-Jr.jpg"
+      }
+  ]

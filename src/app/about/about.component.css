@@ -1,0 +1,196 @@
+/* fourtharea */
+.body{
+  background-color: rgb(239,239,239);
+}
+.fourtharea{
+  background-color: rgb(239,239,239) !important;
+  text-align: left;
+  padding: 65px;
+}
+.fiftharea{
+  background-color: rgb(239,239,239) !important;
+  text-align: left;
+}
+.fourtharea h1{
+  color:black;
+  font-size: 30px;
+  font-family: "Poor Story", cursive;
+  animation: 3s fourtharea;
+}
+@keyframes fourtharea{
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+.fourtharea h6{
+  text-align: justify;
+  font-family: "Poor Story", cursive;
+}
+.fourtharea img{
+  height: 350px;
+  width: 650px;
+  border-radius: 5%;
+}
+.teamarea{
+  text-align: center;
+}
+.headingarea{
+  padding-bottom: 20px;
+}
+.teamarea h1{
+  color:black;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.teamzone{
+  color: rgba(238, 11, 11);
+  font-size: 50px;
+  font-family: 'Grand Hotel', cursive;
+}
+.teampic{
+  animation: 1s teampic;
+}
+@keyframes teampic{
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+.project{
+    text-align: center;
+    background-color: rgb(239,239,239);
+    /* background-size: cover; */
+    /* background-image: url('../../assets/contact1.png'); */
+}
+.project img{
+  width: 300px;
+  height: 400px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20%;
+  text-align: center;
+
+}
+.project h4{
+  background-color:rgba(238, 11, 11) ;
+  /* color: #fff; */
+  width: -20px;
+
+}
+ /* seventharea */
+ .seventharea{
+  background-color: rgb(239,239,239);
+  padding-top: 0;
+  padding-bottom: 30px;
+
+}
+.headingarea{
+  background-color:rgb(239,239,239) ;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.headingarea h1{
+  color:black;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.seventhzone{
+  color: rgba(238, 11, 11);
+  font-size: 50px;
+  font-family: 'Grand Hotel', cursive;
+}
+#testimonials .card {
+  border: 0;
+}
+
+.card {
+  background-color: rgb(239,239,239);
+  width:100%;
+}
+.card text p{
+  text-align: justify;
+}
+
+.card img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 12rem;
+  max-height: 13rem;
+  margin: 0 auto;
+}
+
+._tm-user-role {
+  font-weight: bold;
+}
+._tm-header {
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+.fiftharea{
+  background-color: rgb(239,239,239);
+  padding-top: 20px;
+  }
+  .title-arch {
+    background-color: rgb(239,239,239);
+    text-align: center;
+  
+    margin: 30px 0;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .title-arch h1{
+    font-size: 30px;
+    font-family: 'Michroma', sans-seri;
+    color: black;
+  }
+  .servicezone{
+      font-size: 3vw;
+      color: rgb(183, 29, 31);
+    }
+    .bloodsakha{
+      color: rgb(183, 29, 31);
+      font-weight: bold;
+    }
+  @keyframes notice{
+    0%{
+        letter-spacing: 30px;
+        text-shadow: 10px 10px 10px black;
+    }
+    100%{
+        letter-spacing: 0px;
+  
+    }
+  }
+  .fiftharea h1{
+    animation-name: notice;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  .advantage{
+    margin-bottom: 30px;
+    background-color: rgb(239,239,239);
+    padding-bottom: 30px;
+    /* box-shadow: 0 4px 9px -4px rgb(0 0 0 / 35%); */
+  }
+  .advantage p{
+    background-color: rgb(239,239,239);
+    font-family: "Poor Story", cursive;
+  }
+
+  
+  .zone{
+    color: rgb(183, 29, 31);
+    font-weight: bold;
+    font-family: "Poor Story", cursive;
+  }

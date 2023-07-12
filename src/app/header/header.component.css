@@ -1,0 +1,80 @@
+/* header */
+.body{
+  background-color: rgb(239,239,239);
+}
+.first{
+  background-color: rgb(138,29,31);
+  text-align: center;
+  color: #fff;
+}
+.first p{
+  padding-top: 10px;
+  font-size: 15px;
+}
+.toparea{
+  box-shadow: 0 4px 9px -4px rgb(0 0 0 / 35%);
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  background-color: rgb(239,239,239);
+}
+.logoarea {
+  text-align: center; 
+
+}
+.logoarea img {
+  width: 110px;
+  height: 110px;
+} 
+.menuarea {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: right !important; 
+
+}
+.nav-link {
+  color: #B20909 !important;
+  font-size: 20px !important;
+  padding: 0 25px !important;
+  font-weight: bold;
+  /* font-family: 'Michroma', sans-seri; */
+  font-family: "Poor Story", cursive;
+
+  
+}
+.nav-item hr{ 
+  height: 5px;
+  width: 0%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: rgba(138,29,31, 1);
+  border: 0;
+  }
+  .nav-item:hover hr{ 
+    height: 5px;
+    width: 100%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: rgba(138,29,31, 1);
+    border: 0;
+    }
+/* .getstartarea {
+      margin-top: 30px;
+      text-align: center; 
+    }
+  .btn{
+    background-color: rgba(238, 11, 11);
+    color: #fff;
+      text-transform: uppercase;
+      vertical-align: bottom;
+      border: 0;
+      box-shadow: 0 4px 9px -4px rgb(0 0 0 / 35%);
+      font-weight: 500;
+      padding: 0.625rem 1.5rem 0.5rem;
+      font-size: .75rem;
+      line-height: 1.5;
+      } */

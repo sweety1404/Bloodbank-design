@@ -1,0 +1,18 @@
+{
+    "HOME": {
+      "TITLE": "जमशेदपुर",
+      "SELECT": "भाषा बदलें"
+    },
+    "about":{
+        "abouttitle":"हमारे बारे में"
+    },
+    "menu":{
+        "home":"घर",
+        "about":"हमारे बारे में",
+        "services":"सेवा",
+        "gallery":"गेलरी",
+        "contact-us":"संपर्क करें",
+        "testing":"परिक्षण"
+    }
+  }
+  

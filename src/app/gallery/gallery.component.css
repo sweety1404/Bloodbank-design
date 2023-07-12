@@ -1,0 +1,63 @@
+.galleryarea{
+    background-color: rgb(239,239,239);
+}
+.portfolio-menu{
+	text-align:center;
+    background-color: rgb(239,239,239);
+}
+.portfolio-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:10px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+.portfolio-item .item{
+	float:left;
+    /* width: 100%; */
+    /* height:auto; */
+	margin-bottom:10px;
+}
+/* fiftharea */
+.fiftharea{
+    background-color: rgb(239,239,239);
+    padding-top: 20px;
+    }
+    .title-arch {
+      background-color: rgb(239,239,239);
+      text-align: center;
+    
+      margin: 30px 0;
+      font-size: 22px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    .title-arch h1{
+      font-size: 30px;
+      font-family: 'Michroma', sans-seri;
+      color: black;
+    }
+    .servicezone{
+        font-size: 3vw;
+        color: rgb(183, 29, 31);
+      }
+    @keyframes notice{
+      0%{
+          letter-spacing: 30px;
+          text-shadow: 10px 10px 10px black;
+      }
+      100%{
+          letter-spacing: 0px;
+    
+      }
+    }
+    .fiftharea h1{
+      animation-name: notice;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }

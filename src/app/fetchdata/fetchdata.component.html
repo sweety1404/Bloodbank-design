@@ -1,0 +1,24 @@
+<section>
+    <div class="container row">
+        <div class="col">
+            <table class="table" id='tab'>
+                <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Position</th>
+                    <th scope="col">Office</th>
+                    <th scope="col">Salary</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let e of httpData;">
+                    <td>{{ e.userId }}</td>
+                    <td>{{ e.id }}</td>
+                    <td>{{ e.title }}</td>
+                    <td>{{ e.completed }}</td>
+                </tr>
+                </tbody>
+            </table>             
+        </div>
+    </div>
+</section>

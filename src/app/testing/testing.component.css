@@ -1,0 +1,20 @@
+.faqboxarea{
+    margin: 50px;
+    background-color: orange;
+}
+.faqbox{
+    padding: 20px ;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin: 50px;
+}
+.faq-q{
+    color: red;
+    font: bold 20px;
+}
+.namebox{
+    padding:5px 10px;
+    background: rgba(255, 255, 0, 0.7);
+    border:solid 1px #CCC;
+    margin:10px 0;
+}

@@ -1,0 +1,192 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <app-rating></app-rating>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <div class="getstartarea" *ngIf="status==true;">
+                    <a class="btn" href="#">Login</a>
+                </div>
+                
+                <div>
+                    <button (click)="fun()">{{bname}} </button>
+                </div>
+            </div>
+            <!-- //show more and less onclick: -->
+            <div class="col-md-6 col-12">
+                <div>
+                    <p>Jamshedpur steel city</p>
+                    <div class="getstartarea" *ngIf="content==true;">
+                        <p>Jamshedpur is a large city set between the Subarnarekha and Kharkai rivers in the east Indian state of
+                            Jharkhand. It’s known for huge, tree-lined Jubilee Park, where the Tata Steel Zoological Park has resident
+                            species including tigers and leopards. To the east, the hilltop Bhuvaneshwari Temple has an elaborate
+                            5-story entrance tower. North of the city, elephants roam through the forests at Dalma Wildlife Sanctuary
+                        </p>
+                    </div>
+                
+                    <div>
+                        <button (click)="gun()">{{gname}} </button>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="faqboxarea">
+    <div class="faqbox" *ngFor="let data of studentname">
+        <div class="faq-q">{{data}}</div>
+        <div class="faq-a">Monday to Saturday 10am to 5pm</div>
+    </div>
+</div>
+<!-- // increase in number on click button: -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                Value is {{increase}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <div>
+                    
+                    <button (click)="increment()">+</button>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div>
+                        <button (click)="decrement()">-</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<app-carousel-basic></app-carousel-basic>
+<app-accordion></app-accordion>
+<!-- graph area -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <app-chart></app-chart>
+            </div>
+            <div class="col-md-6 col-12">
+                <app-graph></app-graph>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- google map and video -->
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <app-map></app-map>
+            </div>
+            <div class="col-md-6 col-12">
+                <app-video></app-video>
+            </div>
+        </div>
+    </div>
+</section>
+<app-view></app-view>
+<app-table></app-table>
+<!-- crop and image and alert box -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <app-crop></app-crop>
+            </div>
+            <div class="col-md-6 col-12">
+                <app-alertbox></app-alertbox>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-12">
+                <ul>
+                    <li *ngFor="let data of studentname">{{data}}</li>
+                </ul>
+            
+                
+            </div>
+            <div class="col-md-3 col-12">
+                <table class="table table-bordered">
+                    <tr *ngFor="let data of d">
+                        <td>{{data}}</td>
+                    </tr>
+                </table>
+                
+            </div>
+            <div class="col-md-3 col-12">
+                    <div class="namebox" *ngFor="let data of d">
+                        {{data}}
+                    </div>
+         
+                
+            </div>
+        </div>
+        <div class="row">
+            <h2>{{value}}</h2>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <app-students></app-students>
+        </div>
+    </div>
+</section>
+<app-fetchdata></app-fetchdata>
+<div ng-app="myApp" ng-controller="myCtrl">
+    <form name="myForm" ng-submit="submitForm()" novalidate>
+      <h2>Login Form</h2>
+      <div>
+        <label>Email:</label>
+        <input type="email" name="email" ng-model="email" required>
+        <span ng-show="myForm.email.$error.required && myForm.email.$dirty">Email is required</span>
+        <span ng-show="myForm.email.$error.email && myForm.email.$dirty">Invalid email address</span>
+      </div>
+      <div>
+        <label>Password:</label>
+        <input type="password" name="password" ng-model="password" required>
+        <span ng-show="myForm.password.$error.required && myForm.password.$dirty">Password is required</span>
+      </div>
+      <button type="submit" ng-disabled="myForm.$invalid">Login</button>
+      <hr>
+      <h2>Sign Up Form</h2>
+      <div>
+        <label>Full Name:</label>
+        <input type="text" name="fullname" ng-model="fullname" required>
+        <span ng-show="myForm.fullname.$error.required && myForm.fullname.$dirty">Full name is required</span>
+      </div>
+      <div>
+        <label>Email:</label>
+        <input type="email" name="signupEmail" ng-model="signupEmail" required>
+        <span ng-show="myForm.signupEmail.$error.required && myForm.signupEmail.$dirty">Email is required</span>
+        <span ng-show="myForm.signupEmail.$error.email && myForm.signupEmail.$dirty">Invalid email address</span>
+      </div>
+      <div>
+        <label>Password:</label>
+        <input type="password" name="signupPassword" ng-model="signupPassword" required>
+        <span ng-show="myForm.signupPassword.$error.required && myForm.signupPassword.$dirty">Password is required</span>
+      </div>
+      <button type="submit" ng-disabled="myForm.$invalid">Sign Up</button>
+    </form>
+  </div>
+  

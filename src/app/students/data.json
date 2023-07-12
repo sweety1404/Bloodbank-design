@@ -1,0 +1,278 @@
+{
+    "current":{
+        "mechanical":[
+            {
+                "id":1,
+                "BoardRoll": "20402125001",
+                "Name": "Akansha Kumari", 
+                "Company": "Tata Steel Long Products"
+               },{
+                "id":2,
+                "BoardRoll": "20402120034",
+                "Name": "Ritesh Mandal", 
+                "Company": "Tata Steel Long Products"
+               },{
+                "id": 3,
+                "BoardRoll": 20402120014,
+                "Name": "Dhanjeet Kumar Singh",
+                "Company": "Tata Steel Long Products"
+              },
+              {
+                "id": 4,
+                "BoardRoll": 20402120048,
+                "Name": "Suraj Kumar",
+                "Company": "Tata Steel Long Products"
+              },
+              {
+                "id": 5,
+                "BoardRoll": 20402120051,
+                "Name": "Vishal Oraon",
+                "Company": "Tata Steel Long Products"
+              },
+              {
+                "id": 6,
+                "BoardRoll": 20402120043,
+                "Name": "Saurav Kumar Gupta",
+                "Company": "Tata Steel Long Products"
+              },
+              {
+                "id": 7,
+                "BoardRoll": 20402120038,
+                "Name": "Rupesh Kumar",
+                "Company": "Tata Steel Long Products"
+              },
+              {
+                "id": 8,
+                "BoardRoll": 20402120017,
+                "Name": "Kamal Mahato",
+                "Company": "Tata Steel Long Products"
+              },
+              {
+                "id": 9,
+                "BoardRoll": 20402120052,
+                "Name": "Vishal Prajapati",
+                "Company": "Tata Steel Long Products"
+              },
+              {
+                "id": 10,
+                "BoardRoll": 20402125003,
+                "Name": "Amit Kumar Pandit",
+                "Company": "ArcelorMittal Nippon Steel, Tata Steel Long Products(In Panel)"
+              },
+              {
+                "id": 11,
+                "BoardRoll": 20402120025,
+                "Name": "Nipen Sahis",
+                "Company": "Tata Steel Long Products(In Panel)"
+              },
+              {
+                "id": 12,
+                "BoardRoll": 20402120028,
+                "Name": "Piyush Singh",
+                "Company": "ArcelorMittal Nippon Steel"
+              },
+              {
+                "id": 13,
+                "BoardRoll": 20402120022,
+                "Name": "Motilal Swansi",
+                "Company": "ArcelorMittal Nippon Steel"
+              },
+              {
+                "id": 14,
+                "BoardRoll": 20402120004,
+                "Name": "Amit Agarwal",
+                "Company": "Tata Power"
+              }
+        ],
+        "electrical":[
+            {
+                "id": 1,
+                "BoardRoll": 20402085001,
+                "Name": "Anishek Raj",
+                "Company": "Tata Steel Long Products"
+              },
+              {
+                "id": 2,
+                "BoardRoll": 20402080048,
+                "Name": "Surai Karmali",
+                "Company": "Tata Steel Long Products"
+              },
+              {
+                "id": 3,
+                "BoardRoll": 20402080037,
+                "Name": "Roshni Kumari",
+                "Company": "Tata Steel Long Products"
+              },
+              {
+                "id": 4,
+                "BoardRoll": 20402080026,
+                "Name": "Neha Kumari Gupta",
+                "Company": "Tata Steel Long Products"
+              },
+              {
+                "id": 5,
+                "BoardRoll": 20402080045,
+                "Name": "Shreya Sinha",
+                "Company": "ArcelorMittal Nippon Steel"
+              },
+              {
+                "id": 6,
+                "BoardRoll": 20402080049,
+                "Name": "Trilochan Mahato",
+                "Company": "Tata Power, ArcelorMittal Nippon Steel"
+              },
+              {
+                "id": 7,
+                "BoardRoll": 20402080024,
+                "Name": "Md Umar",
+                "Company": "ArcelorMittal Nippon Steel"
+              },
+              {
+                "id": 8,
+                "BoardRoll": 20402080002,
+                "Name": "Aman Kumar Das",
+                "Company": "ArcelorMittal Nippon Steel"
+              },
+              {
+                "id": 9,
+                "BoardRoll": 20402080027,
+                "Name": "Nishar Ahmad",
+                "Company": "ArcelorMittal Nippon Steel"
+              },
+              {
+                "id": 10,
+                "BoardRoll": 20402080044,
+                "Name": "Shourya Raj",
+                "Company": "ArcelorMittal Nippon Steel"
+              },
+              {
+                "id": 11,
+                "BoardRoll": 20402085005,
+                "Name": "Pawan Kumar",
+                "Company": "Tata Power"
+              }
+        ],
+        "metallurgy":[
+            {
+                "id": 1,
+                "BoardRoll": 20402130045,
+                "Name": "Sourabh Patro",
+                "Company": "Tata Steel Long Products"
+              },
+              {
+                "id": 2,
+                "BoardRoll": 20402130006,
+                "Name": "Anjali Kumari",
+                "Company": "Tata Steel Long Products"
+              },
+              {
+                "id": 3,
+                "BoardRoll": 20402130043,
+                "Name": "Sneha Shruti",
+                "Company": "Tata Steel Long Products"
+              },
+              {
+                "id": 4,
+                "BoardRoll": 20402135005,
+                "Name": "Vivek Kumar Sahu",
+                "Company": "Tata Steel Long Products"
+              },
+              {
+                "id": 5,
+                "BoardRoll": 20402130037,
+                "Name": "Sadaqat Ali",
+                "Company": "Tata Steel Long Products"
+              },
+              {
+                "id": 6,
+                "BoardRoll": 20402130034,
+                "Name": "Ritu Kumari",
+                "Company": "Tata Steel Long Products"
+              },
+              {
+                "id": 7,
+                "BoardRoll": 20402130008,
+                "Name": "Arpita Bhabai",
+                "Company": "Tata Steel Long Products"
+              },
+              {
+                "id": 8,
+                "BoardRoll": 20402130036,
+                "Name": "Rounak Kumar Singh",
+                "Company": "Tata Steel Long Products(In Panel)"
+              },
+              {
+                "id": 9,
+                "BoardRoll": 20402130022,
+                "Name": "Muskan Mahato",
+                "Company": "ArcelorMittal Nippon Steel"
+              },
+              {
+                "id": 10,
+                "BoardRoll": 20402130010,
+                "Name": "Bhubhan Mahato",
+                "Company": "ArcelorMittal Nippon Steel"
+              },
+              {
+                "id": 11,
+                "BoardRoll": 20402130031,
+                "Name": "Ricky Mahapatra",
+                "Company": "ArcelorMittal Nippon Steel"
+              },
+              {
+                "id": 12,
+                "BoardRoll": 20402130046,
+                "Name": "Sourav Das",
+                "Company": "ArcelorMittal Nippon Steel"
+              },
+              {
+                "id": 13,
+                "BoardRoll": 20402130004,
+                "Name": "Akansha Kumari",
+                "Company": "ArcelorMittal Nippon Steel"
+              },
+              {
+                "id": 14,
+                "BoardRoll": 20402130036,
+                "Name": "Rounak Kumar Singh",
+                "Company": "ArcelorMittal Nippon Steel"
+              },
+              {
+                "id": 15,
+                "BoardRoll": 20402130002,
+                "Name": "Aftab Khan",
+                "Company": "ArcelorMittal Nippon Steel"
+              },
+              {
+                "id": 16,
+                "BoardRoll": 20402130047,
+                "Name": "Sourav Kumar Munda",
+                "Company": "ArcelorMittal Nippon Steel"
+              },
+              {
+                "id": 17,
+                "BoardRoll": 20402130011,
+                "Name": "Binod Kumar Das",
+                "Company": "ArcelorMittal Nippon Steel"
+              },
+              {
+                "id": 18,
+                "BoardRoll": 20402130052,
+                "Name": "Vishal Haiburu",
+                "Company": "ArcelorMittal Nippon Steel"
+              },
+              {
+                "id": 19,
+                "BoardRoll": 20402130040,
+                "Name": "Shashank Mishra",
+                "Company": "ArcelorMittal Nippon Steel"
+              },
+              {
+                "id": 20,
+                "BoardRoll": 20402130005,
+                "Name": "Anikesh Ghosh",
+                "Company": "ArcelorMittal Nippon Steel"
+              }
+        ]
+    }
+}

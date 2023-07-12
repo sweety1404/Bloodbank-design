@@ -1,0 +1,19 @@
+{
+    "HOME": {
+      "TITLE": "Jamshedpur",
+      "SELECT": "Change language"
+    },
+    "about":{
+        "abouttitle":"About Us"
+    },
+    "menu":{
+        "home":"Home",
+        "about":"About",
+        "services":"Services",
+        "gallery":"Gallery",
+        "contact-us":"Contact Us",
+        "testing":"Testing"
+    }
+    
+  }
+  
